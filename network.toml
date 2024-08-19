@@ -10,7 +10,7 @@ name = "bob"
 validator = true
 
 [[parachains]]
-id = 2563
+id = 1000
 default_command = "./target/release/parachain-template-node"
 
 [[parachains.collators]]
