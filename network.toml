@@ -10,8 +10,10 @@ name = "bob"
 validator = true
 
 [[parachains]]
-id = 1000
+id = 3565
 default_command = "./target/release/parachain-template-node"
 
 [[parachains.collators]]
 name = "arauco-01"
+ws_port = 9954
+port = 35623
